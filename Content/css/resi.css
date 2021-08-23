@@ -1,0 +1,66 @@
+#nav1{
+padding:15px;
+background-color:#754723de;
+}
+.head{
+	font-size:65px;
+	padding-top:150px;
+	font-family: 'Otomanopee One', sans-serif;
+	color:#ff8d00;
+	text-shadow:2px 2px 2px rgb(15, 15, 15);
+}
+.color{
+	color:#ff8d00!important;
+}
+.maincon{
+	padding-top:110px;
+}
+.view{
+	background-color:#ff9800;
+	border-radius:0;
+}
+.mainback{
+background-image:url("../../images/town5.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+height:500px;
+background-position:top;
+}
+/*-----------new feature-----------*/
+.saleStyle{
+	background:#111213;
+	padding:5px;
+	display:inline-block;
+	color:white;
+	margin-top:30px;
+	margin-left:20px;
+}
+/*-----------------------------------footer--------------------------------*/
+.foot2{
+	margin-top:150px;
+	background-color:#6c757d3b;
+}
+.socialIcons{
+	padding:0px;
+	list-style:none;
+	float:left;
+}
+
+.socialIcons li{
+	float:left;
+	padding:15px;
+}
+
+.socialIcons i{
+height: 40px;
+    width: 40px;
+	border-style: solid;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+}
+.calander{
+	color:#ff8d00;
+	margin-left:120px;
+	margin-top:50px;
+}

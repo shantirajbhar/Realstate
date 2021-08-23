@@ -1,0 +1,285 @@
+#nav1{
+background-color:#754723de;
+padding:15px;
+}
+.caption_title{
+ top:15%;
+ color:#331f0e;
+ height:fit-content;
+}
+.color{
+	color:#ff8d00;
+	
+}
+.text1{
+	font-family: 'Otomanopee One', sans-serif;
+}
+.bgcol{
+        background: #212529!important;
+}
+.bgcol:hover{
+	background:#ff9800!important;
+	
+}
+.bgcol i {
+	color:white;
+	font-size:50px;
+	background-color:#ff9800;
+	border-radius:50%;
+	text-align:center;
+	margin-left:50px;
+	margin-top:20px;
+	padding-top:18px;
+	height:100px;
+	width:100px;
+	
+}
+.sec{
+margin-top:90px;
+}
+.new{
+	color:#fd7e14;
+}
+.arrive{
+	margin-top:120px;
+}
+.spn{
+	padding-left:40px;
+}
+.price{
+	margin-top:50px;
+	background-color:white;
+}
+.contact{
+	background-color:#ff8d00;;
+}
+.con{
+	margin-left:80px;
+	margin-top:30px;
+	border-radius:0px;
+}
+.page2{
+	padding:50px;
+}
+.price{
+	margin-right:300px;
+}
+.main2{
+	color:#ff8d00;
+}
+
+.saleStyle{
+	background:#000;
+	padding:5px;
+	display:inline-block;
+}
+.hoverproperty{
+	overflow:hidden;
+	position:relative;
+	float:left;
+	display:inline-block;
+	cursor:pointer;
+}
+.hoverproperty .img1{
+	background-size:cover;
+	background-repeat:no-repeat;
+	-moz-transform:all .5s;
+	-webkit-transition:all .5s;
+	-o-transform:all .5s;
+	transition:all .5s;
+}
+
+.hoverproperty:hover .img1,.hoverproperty:focus .img1{
+	-ms-transform:scale(0.9);
+	-moz-transform:scale(0.9);
+	-webkit-transform:scale(0.9);
+	-o-transform:scale(0.9);
+	transform:scale(0.9);
+}
+.card1{
+background-color:#000;
+margin-left:20px;
+margin-right:220px;
+padding-left:17px;
+margin-top:35px;
+	
+}
+.view{
+	background:#ff9800!important;
+	border-radius:0;
+}
+.conright{
+	margin-left:700px;
+}
+.foot{
+	color:white;
+	font-size:20px;
+	background-color:#343a40;
+	border-radius:50%;
+	text-align:center;
+	margin-left:10px;
+	margin-top:10px;
+	padding-top:7px;
+	height:50px;
+	width:50px;
+}
+.foot:hover{
+	background-color:#ff9800;
+}
+.liststyle{
+	list-style:none;
+	padding:0px;
+}
+
+.liststyle li{
+padding-top:8px;
+}
+.foot2{
+	margin-top:150px;
+	background-color:#6c757d3b;
+}
+.socialIcons{
+	padding:0px;
+	list-style:none;
+	float:left;
+}
+
+.socialIcons li{
+	float:left;
+	padding:15px;
+}
+
+.socialIcons i{
+height: 40px;
+    width: 40px;
+	border-style: solid;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+}
+.icontag{
+	font-size:50px;
+	padding-bottom:20px;
+	color:#ff8d00;
+}
+
+.contactnow {
+    background-image: url('../images/back6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: position:top;
+    height: 550px;
+}
+
+/*-----------------residential----------------------*/
+.mainback {
+    background-image: url('../images/town5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: top;
+}
+.head{
+	font-size:65px;
+	padding-top:150px;
+	font-family: 'Otomanopee One', sans-serif;
+	color:#ff8d00;
+	text-shadow:2px 2px 2px rgb(15, 15, 15);
+}
+.maincon{
+	padding-top:110px;
+}
+.saleStyle{
+	background:#111213;
+	padding:5px;
+	display:inline-block;
+	color:white;
+	margin-top:30px;
+	margin-left:20px;
+}
+.calander{
+	color:#ff8d00;
+	margin-left:170px;
+	margin-top:50px;
+}
+/*--------------------------------About pages----------------------------------*/
+.card-img{
+	height:640px;
+}
+
+.card-title{
+	font-size:60px;
+	color:#ff8d00;
+   
+}
+.breadcrumbCustom {
+	background:#261c18!important;
+	list-style:none;
+}
+.breadcrumb-item a{
+	color:white;
+	text-decoration:none;
+}
+.saleStyle1{
+	background:#000;
+	padding:2px;
+	display:inline-block;
+	
+	color:white;
+}
+.priceStyle1{
+	margin-left:30px;
+	color:#ff8d00;
+}
+.details{
+	padding:50px;
+}
+.color{
+	color:#ff8d00!important;
+	
+}
+
+.socialIcons1 li {
+	float:left;
+	padding:5px;
+	list-style:none;
+}
+.socialIcons1  i{
+	height: 40px;
+    width: 40px;
+	border-style: solid;
+    border: 50%;
+    color:white;
+    padding: 10px;
+	background:#000;
+	
+}
+.list2{
+	list-style:none; 
+	margin-left:30px;
+}.property{
+	list-style:none;
+	padding-top:20px;
+}
+.newarea{
+	padding-left:170px;
+}
+.newsquare{
+	padding-left:230px;
+}
+.conbutton{
+	background:#ff8d00!important;
+	border-radius:0;
+}
+
+.aboutText{
+    padding:80px;
+}
+
+.featureText h5{
+    background-color: #000;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+}

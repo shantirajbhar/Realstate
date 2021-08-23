@@ -1,0 +1,100 @@
+USE [shanti_realstate]
+GO
+
+/****** Object:  Table [dbo].[enquiry]    Script Date: 8/4/2021 2:24:00 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[enquiry](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[clientname] [varchar](100) NOT NULL,
+	[email] [varchar](200) NOT NULL,
+	[phoneno] [varchar](100) NOT NULL,
+	[message] [text] NOT NULL,
+	[prop_id] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[enquiry]  WITH CHECK ADD FOREIGN KEY([prop_id])
+REFERENCES [dbo].[realstate] ([id])
+GO
+
+
+
+USE [shanti_realstate]
+GO
+
+/****** Object:  Table [dbo].[realstate]    Script Date: 8/4/2021 2:24:12 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[realstate](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[propertyname] [varchar](500) NOT NULL,
+	[minimumprice] [varchar](200) NOT NULL,
+	[maximumprice] [varchar](200) NOT NULL,
+	[uploadphoto] [text] NOT NULL,
+	[facebookurl] [varchar](200) NULL,
+	[instagram] [varchar](200) NULL,
+	[whatsapp] [varchar](200) NULL,
+	[youtube] [varchar](200) NULL,
+	[areasqft] [varchar](100) NOT NULL,
+	[bedrooms] [varchar](100) NOT NULL,
+	[bathrooms] [varchar](200) NOT NULL,
+	[garage] [varchar](100) NOT NULL,
+	[propertylist] [varchar](200) NOT NULL,
+	[ihave] [varchar](200) NOT NULL,
+	[propertytype] [varchar](200) NOT NULL,
+	[available] [varchar](200) NOT NULL,
+	[googleurl] [text] NOT NULL,
+	[propshort] [text] NOT NULL,
+	[proplong] [text] NOT NULL,
+	[nearby] [text] NOT NULL,
+	[land_mark] [text] NOT NULL,
+	[city] [varchar](100) NOT NULL,
+	[pincode] [varchar](100) NOT NULL,
+	[fulladdress] [text] NOT NULL,
+	[slugname] [varchar](500) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
+UNIQUE NONCLUSTERED 
+(
+	[slugname] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+
+
+
+
+
+
+

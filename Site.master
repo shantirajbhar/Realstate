@@ -1,0 +1,156 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="Content/css/style.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="Content/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="Content/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link href="Content/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet" />
+   
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <nav class="navbar navbar-expand-lg navbar-light" id="nav1">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Residential.aspx">Residential</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Commercial</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Agriculture</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <div class="container-fluid foot2">
+ <div class="container  pt-3">
+ <div class="footer">
+ <div class="row">
+ <div class="col-md-4"><h1 class="new">81acres</h1>
+ <p class="pt-3">The Capital Square Pvt Ltd was established in the year 2016 with the aim and objective of providing homes for every individual who is ready to purchase their dream home but requires professional assistance from experts in the field who will genuinely guide them and
+ do proper analysis before investment from the client.</p>
+<ul class="socialIcons">
+ <li><i class="fab fa-facebook-f "></i></li>
+ <li><i class="fab fa-twitter "></i></li>
+ <li><i class="fab fa-instagram "></i></li>
+ <li><i class="fab fa-linkedin-in "></i></li>
+ <li><i class="fab fa-behance"></i></li>
+</ul>
+ 
+ </div>
+  <div class="col-md-3"><h4><b>About</h4></b>
+  <ul class="liststyle pt-4">
+    <li>Company</li>
+	<li>Community</li>
+	<li>Carrers</li>
+	<li>News</li>
+	<li>Contact</li>
+ </ul>
+  </div>
+   <div class="col-md-3"><h4><b>Quick Links</h4></b>
+    <ul class="liststyle pt-4">
+    <li>For Rent</li>
+	<li>For Sale</li>
+	<li>Commercial</li>
+	<li>Agents</li>
+	<li>Property Guides</li>
+ </ul>
+   </div>
+    <div class="col-md-2"><h4><b>Help</h4></b>
+	 <ul class="liststyle pt-4">
+    <li>Payment</li>
+	<li>Shipping</li>
+	<li>Cancellation</li>
+	<li>FQA</li>
+	<li>Report</li>
+ </ul>
+	</div>
+ </div>
+ </footer>
+ </div>
+ </div></div>
+ <div class="card-footer">
+ <p class="">Shanti.com@2021</p>
+ </div>
+            </footer>
+        </div>
+    </form>
+   
+    <script src="Content/js/jquery-3.5.1.slim.min.js"></script>
+     <script src="Content/bootstrap.bundle.min.js"></script>
+    <script src="Content/owlcarousel/owl.carousel.js"></script>
+    <script src="Content/vendors/highlight.js"></script>
+    <script src="Content/js/app.js"></script>
+
+    <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                items: 3,
+                loop: true,
+                margin: 10,
+                autoplay: false,
+                autoplayTimeout: 1000
+              });
+              
+            })
+          </script>
+</body>
+</html>
+
